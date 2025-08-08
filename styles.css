@@ -45,8 +45,8 @@ body {
 }
 
 .nav-svg {
-    height: 26px;
-    width: 26px;
+    height: 24px;
+    width: 24px;
 }
 
 .nav-child {
@@ -74,8 +74,8 @@ body {
 }
 
 .settings-svg {
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
 }
 
 .settings-child > p {
@@ -83,11 +83,27 @@ body {
 }
 
 .header {
-    display: grid;
     grid-column: 2 / 3;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    display: grid;
+    grid-template-columns: 2fr 1.6fr;
     border: 5px solid red;
+    padding: 10px 30px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 5px solid lime;
+}
+
+.search-bar input {
+    width: 100%;
+}
+
+.search-svg {
+    width: 16px;
+    height: 16px;
 }
 
 .main {
