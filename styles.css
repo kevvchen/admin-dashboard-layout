@@ -106,30 +106,85 @@ body {
     height: 16px;
 }
 
-.main {
-    grid-column: 2 / 3;
-    border: 5px solid pink;
+.notifications {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    justify-content: center;
+    gap: 25px;
+    border: 5px solid brown;
+}
+
+.bell-svg {
+    width: 16px;
+    height: 16px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: 700;
+}
+
+.user-avatar-large {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 
 .user-profile {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: flex;
+    gap: 15px;
+    border: 5px solid greenyellow;
 }
 
 .user-description {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 5px;
 }
 
-.search-items {
-    display: flex;
+.top-text {
+    font-size: 10px;
+    font-weight: 700;
 }
 
-.notification-items {
-    display: flex;
+.bottom-text {
+    font-weight: 700;
 }
 
-.button-items {
+.buttons {
     display: flex;
+    align-items: center;
+    margin: 0 50px 0;
+    justify-content: space-evenly;
+    border: 5px solid pink;
 }
+
+.button {
+    border-radius: 30px;
+    padding: 10px 0 10px;
+    width: 90px;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    font-weight: 500;
+}
+
+.main {
+    grid-column: 2 / 3;
+    border: 5px solid pink;
+}
+
+
 
