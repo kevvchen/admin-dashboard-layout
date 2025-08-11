@@ -246,6 +246,30 @@ body {
 .announcements {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.announcement-card {
+    background-color: #fff;
+    border-radius: 8px;
+    flex: 1;
+    padding: 25px;
+    box-shadow: 2px 2px 5px 1px rgba(147, 112, 216, 0.425);
+}
+
+.announcement-subsection {
+    padding: 15px 0px 15px;
+}
+
+.announcement-subsection > h5 {
+    font-weight: 700;
+    font-size: 12px;
+    margin: 2px 0 2px;
+}
+
+.announcement-subsection > p {
+    font-size: 11px;
 }
 
 .trending {
